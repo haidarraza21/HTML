@@ -1,0 +1,134 @@
+<!--Problems:-
+Create a pase with all types of ordered list and one unordered list.
+Create a table with headlings, captions and a few rows. One of theading shoud take at least 3 columns.
+Create a contact me form with relevant details for your resume website.
+Use iFrame to add this video to your pase.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectLevel_5</title>
+    <style>
+        #main_div{
+            display: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="main_div">
+    <div id="first">
+    <ol type="i">
+        <caption>List of fruits Name:</caption>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>pineapple</li>
+        <li>watermelon</li>
+        <li>papaya</li>
+        <li>guava</li>
+        <li>pomegranate</li>
+    </ol>
+    <ul>
+        <caption>Language</caption>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Rubi</li>
+        <li>R</li>
+        <li>JavaScript</li>
+    </ul>
+    <table border="1px">
+        <caption>Student Details</caption>
+        <tr>
+            <th>SID</th>
+            <th>Name</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>100610</td>
+            <td>Md Haidar</td>
+            <td>94</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>100342</td>
+            <td>Md Assad</td>
+            <td>100</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>100447</td>
+            <td>Md Farid</td>
+            <td>84</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>100881</td>
+            <td>Sahil</td>
+            <td>99</td>
+            <td>A+</td>
+        </tr>
+    </table>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name"> <br>
+        <label for="fathername">Father's Name:</label>
+        <input type="text" id="fathername" name="name" placeholder="Enter Father's Name"> <br>
+        <label for="phoneno">Phone No:</label>
+        <input type="number" id="phoneno" name="phoneno" placeholder="842326...."> <br>
+        <label for="gmail">Name:</label>
+        <input type="gmail" id="gmail" name="gmail" placeholder="abc@gmail.com"> <br>
+
+
+        <caption>Gender:</caption> <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"> <br>
+
+        <label for="">DOB:</label>
+        <input type="date"> <br>
+
+        <caption>Which Language You Know</caption> <br>
+        <label for="c">C</label>
+        <input type="checkbox" name="land" id="c" value="c"> <br>
+        <label for="">Java</label>
+        <input type="checkbox" name="land" id="java" value="java"> <br>
+        <label for="python">Python</label>
+        <input type="checkbox" name="land" id="python" value="pytho"> <br>
+        <label for="js">JavaScript</label>
+        <input type="checkbox" name="land" id="js" value="js"> <br>
+        <label for="r">R</label>
+        <input type="checkbox" name="land" id="r" value="r"> <br>
+        <label for="rubi">Rubi</label>
+        <input type="checkbox" name="land" id="rubi" value="ribi"> <br>
+
+        <input type="button" value="Submit">
+
+    </form>
+    </div>
+
+    <div id="second">
+
+
+        <caption>For further knowlege must watch this video </caption> <br>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/rklidcZ-aLU?si=YLrP95vtndrFbHP-"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    </div>
+</body>
+
+</html>
